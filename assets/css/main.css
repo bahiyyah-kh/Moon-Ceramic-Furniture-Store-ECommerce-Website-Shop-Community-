@@ -1,3 +1,40 @@
+:root{
+    --primaryColor:#826f66;
+    --primaryFontFamily:"Cormorant Garamond", serif;
+}
 .navbar-collapse{
     flex-grow: 0;
 } 
+.BAT-TRANG{
+    background-image: url('./../img/BAT-TRANG-DINNER-SET/flat-lay-composition-different-sized-plates-1.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    top: 60px;
+    z-index: 0;
+}
+.rectangular{
+    background-color: #826f66;
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    left: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    top: 60px;
+}
+.myFont{
+    font-family: var(--primaryFontFamily);
+    font-size:xx-large;
+    font-weight: 800;
+}
+.BAT-TRANG-DINNER-SET .btn{
+    padding: 10px 60px;
+    color: var(--primaryColor);
+    border-radius: 0;
+}
+
