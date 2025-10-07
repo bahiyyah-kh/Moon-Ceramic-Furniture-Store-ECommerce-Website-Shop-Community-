@@ -46,12 +46,13 @@
 
 @media screen and (max-width: 900px) {
     .BAT-TRANG{
-    background-position: -775px -128px;
     width: 100%;
     z-index: 1;
+    background-position: -412px 23px;
 }
     .rectangular{
     width: 100%;
+    height: 50%;
     left: 0;
 }
 }
