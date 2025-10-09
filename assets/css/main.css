@@ -10,6 +10,7 @@
     font-size:xx-large;
     font-weight: 800;
 }
+    /*  start BAT-TRANG-DINNER-SET section   */
 
 .BAT-TRANG-DINNER-SET .btn{
     padding: 10px 60px;
@@ -48,7 +49,6 @@
 }
 
 @media screen and (max-width: 700px) {
-    /*   BAT-TRANG-DINNER-SET section   */
     .BAT-TRANG{
     width: 100%;
     z-index: 1;
@@ -70,7 +70,10 @@
     gap: 40px;
     overflow-x: auto;
 }
-/*  collection-offer  section  */
+
+/*  end BAT-TRANG-DINNER-SET section   */
+
+/*  start collection-offer  section  */
 
 .collection-offer-left{
     background-color: #F7F6F5;
@@ -96,7 +99,6 @@
 }
 
 @media screen and (max-width: 992px) {
-    /*   collection-offer section   */
     .collection-offer .row{
         
 }
@@ -109,28 +111,38 @@
 }
 
 }
+/*  end collection-offer  section  */
 
-
-
+/*   start best sellers section*/
+.best-sellers{
+    padding: 50px 0;
+}
 .card-body {
     flex: 1 0 auto;
 }
 
 @media  (max-width: 992px) {
     .row-cols-md-4>* {
-        flex: 1 0 auto;
+        flex: 0 0 auto;
         width: 30%;
     }
 }
 @media  (max-width: 770px) {
     .row-cols-md-4>* {
-        flex: 1 0 auto;
+        flex: 0 0 auto;
         width: 50%;
     }
 }
 @media  (max-width: 420px) {
     .row-cols-md-4>* {
-        flex: 1 0 auto;
+        flex: 0 0 auto;
         width: 100%;
     }
 }
+/*   end best sellers section*/
+/*   start Discover new arrivals section*/
+.Discover-new-arrivals{
+    padding: 50px 0;
+}
+
+/*   end Discover new arrivals section*/
