@@ -10,6 +10,7 @@
     font-size:xx-large;
     font-weight: 800;
 }
+
 .BAT-TRANG-DINNER-SET .btn{
     padding: 10px 60px;
     color: var(--primaryColor);
@@ -107,4 +108,29 @@
     height: 50%;
 }
 
+}
+
+
+
+.card-body {
+    flex: 1 0 auto;
+}
+
+@media  (max-width: 992px) {
+    .row-cols-md-4>* {
+        flex: 1 0 auto;
+        width: 30%;
+    }
+}
+@media  (max-width: 770px) {
+    .row-cols-md-4>* {
+        flex: 1 0 auto;
+        width: 50%;
+    }
+}
+@media  (max-width: 420px) {
+    .row-cols-md-4>* {
+        flex: 1 0 auto;
+        width: 100%;
+    }
 }
