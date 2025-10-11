@@ -75,7 +75,7 @@
 
 /*  start collection-offer  section  */
 
-.collection-offer-left{
+.photo-details{
     background-color: #F7F6F5;
     padding: 50px;
 
@@ -85,24 +85,33 @@
     align-items: center;
     justify-content:center;
 }
-.collection-offer-right{
-    background-image: url('./../img/collection-offer.webp');
+.photo{
+    
     background-repeat: no-repeat;
     background-size: cover;
 
+    min-height: 300px;
 
+}
+.left-photo{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.right-photo{
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
-
-    min-height: 300px;
+}
+.collection-offer .photo{
+    background-image: url('./../img/collection-offer.webp');
 }
 @media screen and (max-width: 768px) {
     /*   collection-offer section   */
-    .collection-offer .collection-offer-left{
+.photo-details{
         width: 100%;
     }
-    .collection-offer .collection-offer-right{
+.photo{
         width: 100%;
     }
 }
@@ -131,9 +140,37 @@
 }
 
 /*   end best sellers section*/
+
+
+/*  start Ceramics section*/ 
+.ceramics{
+    padding: 50px 0;
+}
+.right-photo{
+    
+    background-image: url('./../img/home/homepagephoto1.webp');
+}.left-photo{
+    background-image: url('./../img/home/homepagephoto2.webp');
+}
+
+
+
+
+/*  end Ceramics section*/ 
 /*   start Discover new arrivals section*/
 .Discover-new-arrivals{
     padding: 50px 0;
 }
 
 /*   end Discover new arrivals section*/
+
+
+/*   start our-blog section   */
+.our-blog{
+    padding: 50px 0;
+}
+.our-blog .photo{
+    background-image: url('./../img/home/our\ blog.webp');
+}
+
+/*   end our-blog section   */
