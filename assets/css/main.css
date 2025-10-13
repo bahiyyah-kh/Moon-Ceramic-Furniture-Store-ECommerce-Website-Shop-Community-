@@ -10,6 +10,20 @@
     font-size:xx-large;
     font-weight: 800;
 }
+.my-btn{
+    border: 0;
+    border-bottom: 1px solid black;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: white;
+    
+    
+    opacity: 80%;
+}
+ul li {
+    list-style-type: none;
+}
+
     /*  start BAT-TRANG-DINNER-SET section   */
 
 .BAT-TRANG-DINNER-SET .btn{
@@ -92,13 +106,6 @@
 
     min-height: 300px;
 
-}
-.left-photo{
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-}
-.right-photo{
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
@@ -146,10 +153,10 @@
 .ceramics{
     padding: 50px 0;
 }
-.right-photo{
-    
+.first-row-photo{
+
     background-image: url('./../img/home/homepagephoto1.webp');
-}.left-photo{
+}.sec-row-photo{
     background-image: url('./../img/home/homepagephoto2.webp');
 }
 
@@ -174,3 +181,81 @@
 }
 
 /*   end our-blog section   */
+
+
+
+
+/*  start of footer  */
+.footer {
+  background-color: #eeeffb;
+ padding-top: 70px;
+}
+
+.left-ch {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+}
+.footer .left-side {
+  gap: 30px;
+  align-items: flex-start;
+  width: 40%;
+}
+.footer .right-side {
+  gap: 30px;
+  width: 60%;
+}
+
+.footer-item ul li a {
+  font-family: var(--primaryFontFamilyLato);
+  color: #fff;
+  font-size: 16px;
+  display: flex;
+  padding-bottom: 23px;
+  text-decoration: none;
+
+}
+.right-side .footer-item h3 {
+  padding-bottom: 46px;
+  font-size: 22px;
+  font-family: var(--primaryFontFamilyLato);
+}
+@media screen and (max-width: 1170px) {
+  .container {
+    width: calc(100% - 200px);
+  }
+  .footer .left-side,
+  .footer .right-side {
+    width: 100%;
+  }
+  .footer .left-side .left-ch img{
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .container {
+    width: calc(100% - 100px);
+  }
+  .footer .left-side .left-ch img{
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 720px) {
+  .container {
+}
+@media screen and (max-width: 520px) {
+  .container {
+    width: calc(100% - 40px);
+    width: calc(100% - 10px);
+  }
+  .footer .left-side .left-ch img{
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .container {
+    width: calc(100%);
+  }
+}
+
+/*  end of footer  */
