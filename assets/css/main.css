@@ -26,7 +26,7 @@ ul li {
 
     /*  start BAT-TRANG-DINNER-SET section   */
 
-.BAT-TRANG-DINNER-SET .btn{
+.hero .btn{
     padding: 10px 60px;
     color: var(--primaryColor);
     border-radius: 0;
@@ -36,8 +36,7 @@ ul li {
     flex-direction: column;
     
 }
-.BAT-TRANG{
-    background-image: url('./../img/BAT-TRANG-DINNER-SET/flat-lay-composition-different-sized-plates-1.webp');
+.herobackground{
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -49,7 +48,6 @@ ul li {
     z-index: 0;
 }
 .rectangular{
-    background-color: #826f66;
     width: 30%;
     height: 100%;
     position: absolute;
@@ -63,7 +61,7 @@ ul li {
 }
 
 @media screen and (max-width: 700px) {
-    .BAT-TRANG{
+    .herobackground{
     width: 100%;
     z-index: 1;
     background-position: -138px 0;
@@ -275,3 +273,30 @@ ul li {
 }
 
 /* END OF ABOUT.HTML  */
+
+
+
+/*    START OF CONTACT.HTML     */
+
+.hero .rect-item a{
+  background-color: #c69b7b;
+  width: 30px;
+  height: 30px;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero .rect-item a img{
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+.get-in-touch{
+  padding: 50px 0;
+}
+.get-in-touch .form{
+  flex: 1 1 100%;
+  width: 100%;
+}
+/*    END OF CONTACT.HTML      */
