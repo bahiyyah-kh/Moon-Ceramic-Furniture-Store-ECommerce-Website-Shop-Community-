@@ -331,9 +331,13 @@ iframe{
 /*  end of  SHOP.HTML   */
 
 /*  start of BLOG.HTML  */
+.blogContent{
+  padding: 50px 0;
+}
 .card-body{
   min-height: 150px;
 }
+
 @media (min-width: 768px) {
     .row-cols-md-2>* {
         flex: 1 0 auto;
