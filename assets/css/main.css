@@ -90,7 +90,7 @@ ul li {
 
 .photo-details{
     background-color: #F7F6F5;
-    padding: 50px;
+    padding: 100px;
 
 
     display: flex;
@@ -306,9 +306,6 @@ iframe{
 
 /*  start of  SHOP.HTML   */
 
-.details{
-  max-width: 200px;
-}
 .square{
   width: 20px;
   height: 20px;
@@ -322,4 +319,26 @@ iframe{
     display: none;
   }
 }
+.menu .col button{
+  border: 2px solid;
+  color: black;
+}
+.menu .col button:active{
+  border: 2px solid;
+  color: black;
+  opacity: 50%;
+}
 /*  end of  SHOP.HTML   */
+
+/*  start of BLOG.HTML  */
+.card-body{
+  min-height: 150px;
+}
+@media (min-width: 768px) {
+    .row-cols-md-2>* {
+        flex: 1 0 auto;
+        width: 50%;
+    }
+    
+}
+/*  end of BLOG.HTML  */
