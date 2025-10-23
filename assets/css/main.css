@@ -346,3 +346,27 @@ iframe{
     
 }
 /*  end of BLOG.HTML  */
+
+/*  start of CHECKOUT.HTML  */
+.form-check-input{
+  background-color: #3a3845;
+}
+.form-check-input:checked{
+  background-color: white;
+}
+.Payment ::placeholder {
+  color: white; 
+  opacity: 50%;
+}
+@media (min-width: 768px) {
+    .moreDetails{
+      max-width: 400px;
+    }
+    
+}
+@media (max-width: 768px) {
+    .moreDetails{
+      width: 100%;
+    }
+}
+/*  end of CHECKOUT.HTML  */
