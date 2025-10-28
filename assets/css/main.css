@@ -234,9 +234,10 @@ ul li {
   .footer .left-side .left-ch img{
     padding: 20px;
   }
+
 }
 @media screen and (max-width: 720px) {
-  .container {
+
 }
 @media screen and (max-width: 520px) {
   .container {
@@ -252,7 +253,7 @@ ul li {
     width: calc(100%);
   }
 }
-}
+
 /*  end of footer  */
 
 
@@ -314,7 +315,7 @@ iframe{
 .menu .col {
   max-width: 500px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
   .details{
     display: none;
   }
@@ -371,3 +372,9 @@ iframe{
     }
 }
 /*  end of CHECKOUT.HTML  */
+
+
+.nav-item:hover{
+  cursor: pointer;
+}
+
