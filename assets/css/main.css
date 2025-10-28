@@ -173,7 +173,19 @@ ul li {
 .our-blog{
     padding: 50px 0;
 }
+.card {
+  display: flex;
+  flex-direction: column;
+}
 
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-body button {
+  margin-top: auto;
+}
 
 /*   end our-blog section   */
 
